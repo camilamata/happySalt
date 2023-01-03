@@ -27,7 +27,7 @@ const clientSchema = new mongoose.Schema({
         requires: true
     },
     weekDays: {
-        type: Array,
+        type: String,
         requires: true
     }
 });
